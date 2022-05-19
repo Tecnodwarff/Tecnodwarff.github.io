@@ -1,0 +1,94 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header, nav, main, section, article, aside, footer, h1, h2, h3{
+	display: block;
+}
+body{
+	margin: auto;
+	width: 80%;
+	font-size: 13px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#cabeza-inicial{
+	background-color: darkred;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#img1{
+	width: 100px;
+}
+nav{
+	text-align: right;
+	padding: 5px;
+}
+ul{
+	list-style-type: none;
+}
+li a{
+	text-decoration: none;
+	color: black;
+}
+li {
+	display: inline-block;
+	background-color: white;
+	border-radius: 5px;
+	padding: 5px;
+}
+main{
+	float: left;
+	width: 60%;
+}
+.sec-t{
+	background-color: darkred;
+	color: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 5px;
+}
+article{
+	border: 1px solid black;
+	border-radius: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.art-t{
+	border-bottom:  1px solid black;
+	padding: 5px;
+}
+p{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+#vid{
+	float: left;
+	width: 350px;
+	padding: 5px;
+}
+aside{
+	float: right;
+	width: 30%;
+	border: 1px solid black;
+	border-radius: 0px 0px 5px 5px;
+}
+.as-t{
+	border-bottom:  1px solid black;
+	padding: 5px
+}
+.cont-i2{
+	
+}
+#img2{
+	margin: auto;
+	padding: 5px;
+}
+footer{
+	clear: both;
+	background-color: darkred;
+	color: white;
+	text-align: center;
+}
